@@ -6,10 +6,16 @@
   "scripts": {
     "start": "node src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swainmolster/home-web.git"
+  },
   "keywords": [],
   "author": "Swain Molster",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }

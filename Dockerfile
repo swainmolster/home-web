@@ -7,7 +7,7 @@ RUN apt-get -qy install nodejs \
                 build-essential \
 		ca-certificates
 
-COPY ../package.json /src/package.json
+COPY package.json /src/package.json
 
 RUN /bin/bash -c "npm i"
 
