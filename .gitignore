@@ -1,1 +1,3 @@
 node_modules
+*.img
+kernel-qemu-4.4.34-jessie
